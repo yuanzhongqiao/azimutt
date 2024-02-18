@@ -7,135 +7,119 @@
         </picture>
     </a>
 </p>
-<p align="center">
-    <b>Next-Gen ERD</b>: Design, Explore, Document and Analyze your database, schema and data
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+    <a href="https://azimutt.app" rel="nofollow">
+        <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+          <source media="(prefers-color-scheme: dark)" srcset="/azimuttapp/azimutt/raw/main/assets/azimutt-logo-light.png">
+          <source media="(prefers-color-scheme: light)" srcset="/azimuttapp/azimutt/raw/main/assets/azimutt-logo-dark.png">
+          <img alt="阿兹慕标志" src="/azimuttapp/azimutt/raw/main/assets/azimutt-logo-dark.png" style="visibility:visible;max-width:100%;">
+        </picture></themed-picture>
+    </a>
 </p>
-<p align="center">
-  <a href="https://azimutt.app" target="_blank" rel="noopener">azimutt.app</a> •
-  <a href="https://github.com/orgs/azimuttapp/projects/5" target="_blank" rel="noopener">roadmap</a> •
-  <a href="https://twitter.com/azimuttapp" target="_blank" rel="noopener">@azimuttapp</a>
+<p align="center" dir="auto">
+    <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下一代 ERD</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：设计、探索、记录和分析您的数据库、模式和数据
+</font></font></p>
+<p align="center" dir="auto">
+  <a href="https://azimutt.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">azimutt.app</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> •
+  </font></font><a href="https://github.com/orgs/azimuttapp/projects/5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">•
+   </font></font><a href="https://twitter.com/azimuttapp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@azimuttapp</font></font></a>
 </p>
-<p align="center">
-    <a href="https://www.producthunt.com/posts/azimutt?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-azimutt" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=390699&theme=light" alt="Azimutt - Easily explore and analyze your database with your team | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-    <a href="https://azimutt.app/slack" target="_blank"><img src="assets/slack-join.svg" alt="Join us on Slack" style="width: 216px; height: 54px;" width="216" height="54"></a>
+<p align="center" dir="auto">
+    <a href="https://www.producthunt.com/posts/azimutt?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-azimutt" rel="nofollow"><img src="https://camo.githubusercontent.com/54b6eea6f85835bb35c410b25d2a240a0070301d761eddfc26ad096f032f0339/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d333930363939267468656d653d6c69676874" alt="Azimutt - 与您的团队轻松探索和分析您的数据库 |产品搜索" style="width: 250px; height: 54px; max-width: 100%;" width="250" height="54" data-canonical-src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=390699&amp;theme=light"></a>
+    <a href="https://azimutt.app/slack" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/assets/slack-join.svg" alt="加入我们的 Slack" style="width: 216px; height: 54px; max-width: 100%;" width="216" height="54"></a>
 </p>
-
-Azimutt is a full-stack database exploration tool, from modern ERD made for real world databases (big & messy), to fast data navigation, but also documentation everywhere and whole database analysis.
-
-[![Azimutt screenshot](docs/_assets/azimutt.png)](https://azimutt.app/gallery/gospeak)
-
-**Why building Azimutt?**
-
-Databases existed for more than 40 years and despite a lot of tool around them, we couldn't find any providing a great exploration experience.
-
-- **Database clients** focus on querying experience, with auto-completion and table/column lists but no visual help
-- **ERDs** have a great diagram UI but fall short when schema is growing (real-world use cases)
-- **Data catalogs** are focused on data governance and lineage for data teams, miss relational db for developers
-
-So we decided to built it 💪
-
-Azimutt started as a schema exploration tool for databases with hundreds of tables, but now it has grown a lot:
-
-[![Azimutt roadmap](docs/_assets/roadmap.png)](https://mm.tt/map/2434161843?t=N2yWZj1pc1)
-
-- Design your schema using [AML](docs/aml/README.md) for a fast diagramming
-- Explore your database schema using search everywhere, display only useful tables/columns and follow relations
-- Query your data like never before, follow foreign keys and display entities in diagram
-- Document using table/column notes and tags and layouts and memos for use cases, features or team scopes
-- Analyze it to discover inconsistencies and best practices to apply
-
-Azimutt goal is to be your ultimate tool to understand your database.
-
-## Self hosted
-
-You can use our [Docker image](https://github.com/azimuttapp/azimutt/pkgs/container/azimutt) to easily deploy it. Here is the [full guide](INSTALL.md).
-
-
-## Local development
-
-Azimutt is built with [Elixir](https://elixir-lang.org)/[Phoenix](https://www.phoenixframework.org) (backend & admin) and [Elm](https://elm-lang.org)/[elm-spa](https://www.elm-spa.dev) (editor).
-
-For local development you will need to set up the environment:
-
-- install `npm`, [Elm](https://guide.elm-lang.org/install/elm.html) & [elm-spa](https://www.elm-spa.dev)
-- install [Phoenix](https://hexdocs.pm/phoenix/installation.html) and [Elixir](https://elixir-lang.org/install.html) if needed (use [asdf](https://asdf-vm.com))
-- install [PostgreSQL](https://www.postgresql.org/download), create a user `postgres` with password `postgres` and a database `azimutt_dev` (see `DATABASE_URL` in `.env` later)
-- install [pre-commit](https://pre-commit.com) and run `pre-commit install` before committing
-- copy `.env.example` to `.env` and adapt values
-- source your environment and install dependencies: `source .env && npm run setup`
-- you can now start the Azimutt server: `source .env && npm start`
-- and finally navigate to [localhost:4000](http://localhost:4000) 🎉
-- you can login with `admin@azimutt.app` email & `admin` password
-
-Other things:
-
-- API documentation is accessible at [`/api/v1/swagger`](http://localhost:4000/api/v1/swagger)
-- You can use `npm run elm:book` to start Elm design system & components, and access it with [localhost:4002](http://localhost:4002)
-
-
-### npm command semantics
-
-We have a lot of projects with a lot of commands, here is how they are structured:
-
-- each project has its own commands (mostly npm but also elixir), the root project has global commands to launch them using a prefix
-- `setup` is a one time command to install what is required
-- `install` download dependencies, should be run when new ones are added
-- `start` launch project in dev mode
-- `test` allows to run tests
-- `format` allows to run execute code formatting
-- `lint` allows to run execute linters
-- `build` generate compilation output
-- `docker` same as `build` but in the docker image (paths are different 😕)
-- `update` bumps library versions
-
-Prefixes in front of the command in root folder:
-
-- `libs:` run the command for every library in `libs` folder
-- `ex:` meaning elixir, it targets the backend (mostly running `mix` commands)
-- `fe:` meaning frontend, target the frontend project with Elm, TypeScript & Tailwind
-- `elm:` targets only Elm in the frontend project
-- `ts:` targets only TypeScript in the frontend project
-- `cli:` run the command for the `cli` project
-- `desktop:` run the command for the `desktop` project
-- `be:` meaning browser extension run the command for the `browser-extension` project
-
-And then "special" commands:
-
-- `elm:book`: launch elm-book, the design system for Elm
-
-
-### Development commands
-
-- `npm run elm:book` to launch the Elm design system
-
-
-### Setup Stripe
-
-#### Config
-
-- Install [Stripe CLI](https://stripe.com/docs/stripe-cli) and login with `stripe login`
-- Run `stripe listen --forward-to localhost:4000/webhook/stripe`
-- Copy your webhook signing secret to your `.env`, it's look like (`whsec_XXX`)
-- Go to [your Stripe dashboard](https://dashboard.stripe.com/test/apikeys) to obtain your API Key and copy it into `STRIPE_API_KEY` in your `.env` file.
-
-
-#### Payments
-
-When testing interactively, use a card number, such as `4242 4242 4242 4242`. Enter the card number in the Dashboard or in any payment form.
-Use a valid future date, such as `12/34`.
-Use any three-digit CVC like `123` (four digits for American Express cards).
-Use any value you like for other form fields.
-
-See more in the [stripe testing documentation](https://stripe.com/docs/testing)
-
-
-## Stack
-
-* [Production](https://azimutt.app) & [Staging](https://azimutt.dev)
-* [Error logs](https://sentry.io/organizations/azimuttapp/issues/?project=6635088) with [Sentry](https://sentry.io)
-* Design using [TailwindCSS Framework](https://tailwindcss.com)
-* [Credo](http://credo-ci.org) for static code analysis (automatically run with pre-commit)
-
-## License
-
-The tool is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 是一个全栈数据库探索工具，从为现实世界数据库（大而杂乱）创建的现代 ERD，到快速数据导航，还有无处不在的文档和整个数据库分析。</font></font></p>
+<p dir="auto"><a href="https://azimutt.app/gallery/gospeak" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/docs/_assets/azimutt.png" alt="方位角截图" style="max-width: 100%;"></a></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么要建造 Azimutt？</font></font></strong></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库已经存在了 40 多年，尽管有很多工具，但我们找不到任何可以提供出色探索体验的工具。</font></font></p>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库客户端</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注重查询体验，具有自动完成和表/列列表，但没有视觉帮助</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ERD</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具有出色的图表 UI，但当模式增长时就会出现不足（实际用例）</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据目录</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">侧重于数据团队的数据治理和沿袭，而缺少开发人员的关系数据库</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我们决定建造它 💪</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 最初是作为具有数百个表的数据库的模式探索工具，但现在它已经发展了很多：</font></font></p>
+<p dir="auto"><a href="https://mm.tt/map/2434161843?t=N2yWZj1pc1" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/docs/_assets/roadmap.png" alt="阿兹姆路线图" style="max-width: 100%;"></a></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"></font><a href="/azimuttapp/azimutt/blob/main/docs/aml/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用AML</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计架构</font><font style="vertical-align: inherit;">以快速绘制图表</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用随处搜索来探索数据库模式，仅显示有用的表/列并遵循关系</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以前所未有的方式查询数据，遵循外键并在图表中显示实体</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用表/列注释和标签以及用例、功能或团队范围的布局和备忘录进行记录</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分析它以发现不一致之处和要应用的最佳实践</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 的目标是成为您了解数据库的终极工具。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-self-hosted" class="anchor" aria-hidden="true" tabindex="-1" href="#self-hosted"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自托管</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用我们的</font></font><a href="https://github.com/azimuttapp/azimutt/pkgs/container/azimutt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 镜像</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松部署它。这是</font></font><a href="/azimuttapp/azimutt/blob/main/INSTALL.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">完整的指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-local-development" class="anchor" aria-hidden="true" tabindex="-1" href="#local-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当地发展</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 是用</font></font><a href="https://elixir-lang.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elixir</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font><a href="https://www.phoenixframework.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Phoenix</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（后端和管理）和</font></font><a href="https://elm-lang.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> / </font></font><a href="https://www.elm-spa.dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">elm-spa</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（编辑器）构建的。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于本地开发，您需要设置环境：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://guide.elm-lang.org/install/elm.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://www.elm-spa.dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">elm-spa</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果需要的话安装</font></font><a href="https://hexdocs.pm/phoenix/installation.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Phoenix</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://elixir-lang.org/install.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elixir</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（使用</font></font><a href="https://asdf-vm.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">asdf</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><a href="https://www.postgresql.org/download" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PostgreSQL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，创建一个</font></font><code>postgres</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">带有密码的用户</font></font><code>postgres</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和一个数据库</font></font><code>azimutt_dev</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（见</font></font><code>DATABASE_URL</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下文</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><a href="https://pre-commit.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预提交</font></font></a><font style="vertical-align: inherit;"></font><code>pre-commit install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并在提交之前</font><font style="vertical-align: inherit;">运行</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制</font></font><code>.env.example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调整值</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取您的环境并安装依赖项：</font></font><code>source .env &amp;&amp; npm run setup</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您现在可以启动 Azimutt 服务器：</font></font><code>source .env &amp;&amp; npm start</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后导航到</font></font><a href="http://localhost:4000" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">localhost:4000</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 🎉</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>admin@azimutt.app</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子邮件和</font></font><code>admin</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密码登录</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他事情：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API 文档可访问：</font></font><a href="http://localhost:4000/api/v1/swagger" rel="nofollow"><code>/api/v1/swagger</code></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以使用</font></font><code>npm run elm:book</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来启动 Elm 设计系统和组件，并使用</font></font><a href="http://localhost:4002" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">localhost:4002访问它</font></font></a></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-npm-command-semantics" class="anchor" aria-hidden="true" tabindex="-1" href="#npm-command-semantics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">npm 命令语义</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们有很多项目，有很多命令，它们的结构如下：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个项目都有自己的命令（主要是 npm，但也有 elixir），根项目有全局命令来使用前缀启动它们</font></font></li>
+<li><code>setup</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是安装所需内容的一次性命令</font></font></li>
+<li><code>install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载依赖项，应在添加新依赖项时运行</font></font></li>
+<li><code>start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在开发模式下启动项目</font></font></li>
+<li><code>test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许运行测试</font></font></li>
+<li><code>format</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许运行执行代码格式化</font></font></li>
+<li><code>lint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">允许运行execute linter</font></font></li>
+<li><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成编译输出</font></font></li>
+<li><code>docker</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 docker 镜像中相同</font></font><code>build</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（路径不同😕）</font></font></li>
+<li><code>update</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">碰撞库版本</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根文件夹中命令前面的前缀：</font></font></p>
+<ul dir="auto">
+<li><code>libs:</code><font style="vertical-align: inherit;"></font><code>libs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对文件夹</font><font style="vertical-align: inherit;">中的每个库运行命令</font></font></li>
+<li><code>ex:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意思是 Elixir，它针对后端（主要是运行</font></font><code>mix</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令）</font></font></li>
+<li><code>fe:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意思是前端，使用 Elm、TypeScript 和 Tailwind 来定位前端项目</font></font></li>
+<li><code>elm:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅针对前端项目中的 Elm</font></font></li>
+<li><code>ts:</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅针对前端项目中的 TypeScript</font></font></li>
+<li><code>cli:</code><font style="vertical-align: inherit;"></font><code>cli</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行项目</font><font style="vertical-align: inherit;">命令</font></font></li>
+<li><code>desktop:</code><font style="vertical-align: inherit;"></font><code>desktop</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行项目</font><font style="vertical-align: inherit;">命令</font></font></li>
+<li><code>be:</code><font style="vertical-align: inherit;"></font><code>browser-extension</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">意思是浏览器扩展运行项目</font><font style="vertical-align: inherit;">的命令</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后是“特殊”命令：</font></font></p>
+<ul dir="auto">
+<li><code>elm:book</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：推出elm-book，Elm 的设计系统</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-development-commands" class="anchor" aria-hidden="true" tabindex="-1" href="#development-commands"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发命令</font></font></h3>
+<ul dir="auto">
+<li><code>npm run elm:book</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推出Elm设计系统</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-setup-stripe" class="anchor" aria-hidden="true" tabindex="-1" href="#setup-stripe"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置条纹</font></font></h3>
+<h4 tabindex="-1" dir="auto"><a id="user-content-config" class="anchor" aria-hidden="true" tabindex="-1" href="#config"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></h4>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font><a href="https://stripe.com/docs/stripe-cli" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stripe CLI</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并登录</font></font><code>stripe login</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑步</font></font><code>stripe listen --forward-to localhost:4000/webhook/stripe</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将您的 webhook 签名密钥复制到您的</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，它看起来像 ( </font></font><code>whsec_XXX</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">转到</font></font><a href="https://dashboard.stripe.com/test/apikeys" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stripe 仪表板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取 API 密钥并将其复制到</font></font><code>STRIPE_API_KEY</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件中。</font></font></li>
+</ul>
+<h4 tabindex="-1" dir="auto"><a id="user-content-payments" class="anchor" aria-hidden="true" tabindex="-1" href="#payments"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">付款方式</font></font></h4>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交互测试时，请使用卡号，例如</font></font><code>4242 4242 4242 4242</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。在仪表板或任何付款形式中输入卡号。使用有效的未来日期，例如</font></font><code>12/34</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。使用任意三位数的 CVC </font></font><code>123</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（美国运通卡为四位数）。对其他表单字段使用您喜欢的任何值。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><a href="https://stripe.com/docs/testing" rel="nofollow"><font style="vertical-align: inherit;">请参阅条带测试文档</font></a><font style="vertical-align: inherit;">了解更多信息</font></font><a href="https://stripe.com/docs/testing" rel="nofollow"><font style="vertical-align: inherit;"></font></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-stack" class="anchor" aria-hidden="true" tabindex="-1" href="#stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆</font></font></h2>
+<ul dir="auto">
+<li><a href="https://azimutt.app" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与</font></font><a href="https://azimutt.dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">舞台</font></font></a></li>
+<li><a href="https://sentry.io/organizations/azimuttapp/issues/?project=6635088" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"><a href="https://sentry.io" rel="nofollow"><font style="vertical-align: inherit;">Sentry</font></a><font style="vertical-align: inherit;">的</font><a href="https://sentry.io/organizations/azimuttapp/issues/?project=6635088" rel="nofollow"><font style="vertical-align: inherit;">错误日志</font></a></font><a href="https://sentry.io" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://tailwindcss.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TailwindCSS 框架进行设计</font></font></a></li>
+<li><a href="http://credo-ci.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于静态代码分析的Credo</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（通过预提交自动运行）</font></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://opensource.org/licenses/MIT" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该工具根据MIT 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">条款作为开源工具提供</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
