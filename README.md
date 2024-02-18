@@ -26,10 +26,10 @@
 </p>
 <p align="center" dir="auto">
     <a href="https://www.producthunt.com/posts/azimutt?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-azimutt" rel="nofollow"><img src="https://camo.githubusercontent.com/54b6eea6f85835bb35c410b25d2a240a0070301d761eddfc26ad096f032f0339/68747470733a2f2f6170692e70726f6475637468756e742e636f6d2f776964676574732f656d6265642d696d6167652f76312f66656174757265642e7376673f706f73745f69643d333930363939267468656d653d6c69676874" alt="Azimutt - 与您的团队轻松探索和分析您的数据库 |产品搜索" style="width: 250px; height: 54px; max-width: 100%;" width="250" height="54" data-canonical-src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=390699&amp;theme=light"></a>
-    <a href="https://azimutt.app/slack" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/assets/slack-join.svg" alt="加入我们的 Slack" style="width: 216px; height: 54px; max-width: 100%;" width="216" height="54"></a>
+    <a href="https://azimutt.app/slack" rel="nofollow"><img src="https://github.com/azimuttapp/azimutt/raw/main/assets/slack-join.svg" alt="加入我们的 Slack" style="width: 216px; height: 54px; max-width: 100%;" width="216" height="54"></a>
 </p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 是一个全栈数据库探索工具，从为现实世界数据库（大而杂乱）创建的现代 ERD，到快速数据导航，还有无处不在的文档和整个数据库分析。</font></font></p>
-<p dir="auto"><a href="https://azimutt.app/gallery/gospeak" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/docs/_assets/azimutt.png" alt="方位角截图" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://azimutt.app/gallery/gospeak" rel="nofollow"><img src="https://github.com/azimuttapp/azimutt/raw/main/docs/_assets/azimutt.png" alt="方位角截图" style="max-width: 100%;"></a></p>
 <p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么要建造 Azimutt？</font></font></strong></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据库已经存在了 40 多年，尽管有很多工具，但我们找不到任何可以提供出色探索体验的工具。</font></font></p>
 <ul dir="auto">
@@ -39,7 +39,7 @@
 </ul>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所以我们决定建造它 💪</font></font></p>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azimutt 最初是作为具有数百个表的数据库的模式探索工具，但现在它已经发展了很多：</font></font></p>
-<p dir="auto"><a href="https://mm.tt/map/2434161843?t=N2yWZj1pc1" rel="nofollow"><img src="/azimuttapp/azimutt/raw/main/docs/_assets/roadmap.png" alt="阿兹姆路线图" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://mm.tt/map/2434161843?t=N2yWZj1pc1" rel="nofollow"><img src="https://github.com/azimuttapp/azimutt/raw/main/docs/_assets/roadmap.png" alt="阿兹姆路线图" style="max-width: 100%;"></a></p>
 <ul dir="auto">
 <li><font style="vertical-align: inherit;"></font><a href="/azimuttapp/azimutt/blob/main/docs/aml/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用AML</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设计架构</font><font style="vertical-align: inherit;">以快速绘制图表</font></font></li>
 <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用随处搜索来探索数据库模式，仅显示有用的表/列并遵循关系</font></font></li>
